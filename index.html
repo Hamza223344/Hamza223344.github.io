@@ -7,133 +7,136 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
     <!-- Header Section -->
     <header>
         <div class="container">
             <h1>Hi, I'm Hamza Mumtaz</h1>
             <p>💻 Software Engineer | 🎮 Game Developer | 🚀 Problem Solver</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/hamza-mumtaz" target="_blank">LinkedIn</a>
                 <a href="mailto:hamzapak1995@gmail.com">Email</a>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                Experienced Software Engineer with several years of expertise in C# development (Game Development), software architecture, and performance optimization.
-                Proficient in object-oriented programming (OOP), clean code principles, and developing scalable software solutions. Strong background in developing interactive applications and game development using Unity, with a proven track record of collaborating with cross-functional teams and managing version control using GitHub. Skilled in cloud-based solutions, data structures, and algorithm optimization. 
-                Enthusiastic about problem-solving and delivering high-quality software products.
-                Eligible to work in the UK without visa sponsorship and open to relocation if required.
-
-            </p>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills & Expertise</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> C#, C++ (Basic)</li>
-                <li><strong>Game Development:</strong> Unity, ML Agents, Pathfinding</li>
-                <li><strong>Version Control:</strong> Git, GitHub</li>
-                <li><strong>Cloud:</strong> Firebase (Database, Authentication, Analytics)</li>
-                <li><strong>Performance Optimization:</strong> Memory Management, Load Balancing, Multithreading</li>
-                <li><strong>UI/UX:</strong> Canvas Optimization, Batching, Dynamic UI</li>
-                <li><strong>Team Collaboration:</strong> Agile Development, Cross-functional Teams</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-
-            <div class="experience-item">
-                <h3>The Knights Pvt Ltd</h3>
-                <p><em>Nov 2019 – Jan 2024 | Experienced Game Developer</em></p>
+    <!-- Main Content with Sidebar -->
+    <main class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
                 <ul>
-                    <li>Worked on 10+ released projects including racing games, FPS/TPS shooters, RPGs, and hyper-casual games using Unity and C#.</li>
-                    <li>Developed and optimized physics-based controllers for realistic vehicle and player movement.</li>
-                    <li>Enhanced game performance using Unity Profiler, batching, LOD, and object pooling, improving frame rates and load times.</li>
-                    <li>Designed scalable game economy and player customization features to enhance player engagement and retention.</li>
-                    <li>Integrated Firebase for real-time database management and authentication.</li>
-                    <li>Utilized GitHub for version control, ensuring structured, clean code and efficient team collaboration.</li>
+                    <li><a href="#about" class="tab-link active" data-tab="about">About Me</a></li>
+                    <li><a href="#skills" class="tab-link" data-tab="skills">Skills</a></li>
+                    <li><a href="#experience" class="tab-link" data-tab="experience">Experience</a></li>
+                    <li><a href="#projects" class="tab-link" data-tab="projects">Projects</a></li>
                 </ul>
+            </nav>
+        </aside>
+
+        <!-- Content Area -->
+        <section class="content-area">
+            <!-- About Section -->
+            <div id="about" class="tab-content active">
+                <div class="container">
+                    <h2>About Me</h2>
+                    <p>
+                        I’m an experienced Software Engineer specializing in C# and Unity game development, with a strong focus on software architecture, performance optimization, and scalable solutions. With several years of experience, I excel in object-oriented programming, clean code practices, and building interactive applications. My expertise includes game development with Unity, cloud integration (e.g., Firebase), and version control with GitHub. I’m passionate about solving complex problems and delivering high-quality software. Eligible to work in the UK without sponsorship and open to relocation.
+                    </p>
+                </div>
             </div>
 
-            <div class="experience-item">
-                <h3>Impaxive Technologies</h3>
-                <p><em>Jan 2019 – Nov 2019 | Game Developer</em></p>
-                <ul>
-                    <li>Developed 2D and Hybrid Casual games using Unity and C# that reached over 500,000 downloads.</li>
-                    <li>Designed and implemented dynamic UI/UX interfaces, improving player engagement by 20%.</li>
-                    <li>Assisted in debugging and optimizing performance issues, reducing lag and increasing stability.</li>
-                    <li>Integrated real-time multiplayer functionality using Photon.</li>
-                </ul>
+            <!-- Skills Section -->
+            <div id="skills" class="tab-content">
+                <div class="container">
+                    <h2>Skills & Expertise</h2>
+                    <ul>
+                        <li><strong>Languages:</strong> C#, C++ (Basic)</li>
+                        <li><strong>Game Dev:</strong> Unity, ML Agents, Pathfinding</li>
+                        <li><strong>Tools:</strong> Git, GitHub</li>
+                        <li><strong>Cloud:</strong> Firebase (Database, Auth, Analytics)</li>
+                        <li><strong>Optimization:</strong> Memory Management, Multithreading</li>
+                        <li><strong>UI/UX:</strong> Canvas Optimization, Dynamic UI</li>
+                        <li><strong>Collaboration:</strong> Agile, Cross-functional Teams</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="experience-item">
-                <h3>Occess</h3>
-                <p><em>Jun 2018 – Jan 2019 | Game Developer</em></p>
-                <ul>
-                    <li>Developed core gameplay systems for a 3D RPG using Unity and C#.</li>
-                    <li>Assisted in physics-based game development, including collision detection and player movement.</li>
-                    <li>Resolved over 100+ bugs pre-launch, improving the game's performance and player satisfaction.</li>
-                    <li>Worked with Git to manage version control and team collaboration.</li>
-                </ul>
+            <!-- Experience Section -->
+            <div id="experience" class="tab-content">
+                <div class="container">
+                    <h2>Experience</h2>
+                    <div class="experience-item">
+                        <h3>The Knights Pvt Ltd</h3>
+                        <p><em>Nov 2019 – Jan 2024 | Senior Game Developer</em></p>
+                        <ul>
+                            <li>Led development on 10+ released Unity titles, including racing, FPS, and RPG games.</li>
+                            <li>Optimized physics controllers for vehicles and characters, boosting realism.</li>
+                            <li>Improved performance with Unity Profiler, LOD, and object pooling.</li>
+                            <li>Designed scalable game economies and customization features.</li>
+                            <li>Integrated Firebase for real-time data and authentication.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Impaxive Technologies</h3>
+                        <p><em>Jan 2019 – Nov 2019 | Game Developer</em></p>
+                        <ul>
+                            <li>Built 2D and hybrid casual games with 500K+ downloads.</li>
+                            <li>Enhanced UI/UX, increasing engagement by 20%.</li>
+                            <li>Integrated Photon for real-time multiplayer.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Occess</h3>
+                        <p><em>Jun 2018 – Jan 2019 | Game Developer</em></p>
+                        <ul>
+                            <li>Developed core systems for a 3D RPG in Unity.</li>
+                            <li>Fixed 100+ bugs pre-launch, enhancing stability.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Interactive Games Studio</h3>
+                        <p><em>Jul 2017 – Jul 2018 | Game Developer</em></p>
+                        <ul>
+                            <li>Supported mobile/PC game development in Unity.</li>
+                            <li>Optimized assets, reducing game size by 15%.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="experience-item">
-                <h3>Interactive Games Studio</h3>
-                <p><em>Jul 2017 – Jul 2018 | Game Developer</em></p>
-                <ul>
-                    <li>Supported the development of mobile and PC games using Unity and C#.</li>
-                    <li>Worked on front-end UI design and backend integration.</li>
-                    <li>Assisted in asset optimization, reducing game size by 15% without sacrificing quality.</li>
-                    <li>Participated in code reviews to ensure clean, maintainable code.</li>
-                </ul>
+            <!-- Projects Section -->
+            <div id="projects" class="tab-content">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="project">
+                        <h3>Casual Endless Racing Game</h3>
+                        <p>Built mechanics, audio, and optimization for an endless racer.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.tb.minicar.rush.racing.drivinggames&hl=en" target="_blank">View Project</a>
+                    </div>
+                    <div class="project">
+                        <h3>Racing Game</h3>
+                        <p>Developed arcade-style mechanics and car powers.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.ht.mini.car.raceway.endless.drive&hl=en" target="_blank">View Project</a>
+                    </div>
+                    <div class="project">
+                        <h3>Sniper Shooting</h3>
+                        <p>Enhanced AI, gameplay, and Firebase integration.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gamexis.sniper.professional.action.game.apps&hl=en" target="_blank">View Project</a>
+                    </div>
+                    <div class="project">
+                        <h3>2D Doctor Simulator</h3>
+                        <p>Added Firebase and AI-driven NPCs.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.sg.hospital.simulator.game&hl=en" target="_blank">View Project</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Casual Endless Racing Game</h3>
-                <p>Developed endless controller, mechanics, gameplay, audio, optimization, and performance.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.tb.minicar.rush.racing.drivinggames&hl=en" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Racing Game</h3>
-                <p>Worked on gameplay mechanics, different car powers, arcade mode controller, and optimization.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.ht.mini.car.raceway.endless.drive&hl=en" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>Sniper Shooting</h3>
-                <p>Improved controller, gameplay, optimization, Firebase, and AI.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.gamexis.sniper.professional.action.game.apps&hl=en" target="_blank">View Project</a>
-            </div>
-            <div class="project">
-                <h3>2D Doctor Simulator</h3>
-                <p>Integrated Firebase for real-time database management and AI agents for intelligent NPC movement.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.sg.hospital.simulator.game&hl=en" target="_blank">View Project</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Hamza Mumtaz. All Rights Reserved.</p>
+            <p>© 2025 Hamza Mumtaz. All Rights Reserved.</p>
         </div>
     </footer>
 
